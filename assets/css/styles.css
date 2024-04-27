@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#nav{
+ width: 80%;
+ top: 0;
+ position: fixed;
+ overflow: hidden;
+ height: 40px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: azure ;
+ padding-left: 10%;
+ padding-right: 10%;
+
+}
+
+#nav a, #nav div{
+    height: 30;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+
+#nav-call{
+    border: wheat 2px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+#nav-call:hover{
+    border: rgb(163, 111, 14) 2px solid;
+    background-color: rgb(163, 111, 14);
+    color: white;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+#introduce{
+    width: 100%;
+    margin-top: 40px;
+    background-image: url("../img/cover.JPG");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#introduce .content{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    text-shadow: rgb(99, 99, 99) 0.1px 0.3px;
+}
+
+#title {
+    padding-top: 5%; 
+    padding-left: 22%;
+}
+
+#about .content{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(99, 99, 99) 0.1px 0.3px;
+}
